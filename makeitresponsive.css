@@ -1,0 +1,205 @@
+body{
+font-family: "Bodoni MT";
+background-color: burlywood;
+    
+}
+
+
+
+
+h1{
+    text-align: center;
+    border-style: solid;
+    border-color: burlywood;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: Algerian;
+    background-color: #fff6c2;
+
+
+    
+    
+}
+@media screen and (max-width: 650px) {
+    h1 {
+        width: 100%;
+        display: block;
+    }
+}
+
+#tekstboks1{
+  float: top;
+  height: 75px;
+  width: 960px;
+  border-style: ridge;
+  border-color: darkred;
+  margin-left: 200px;
+  margin-right: 200px;
+  word-spacing: 30px;  
+  text-align: center;
+  background-color: lightsalmon;
+  clear: both;
+
+}
+
+#logo{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px 15px 15px 15px;
+
+}
+
+a{
+    font-weight: bold;
+    font-family: "Bodoni MT";
+    font-size: large;
+
+}
+a:hover{
+    border-style: solid;
+    border-color: lightsalmon;
+
+
+}
+
+p{
+   text-align: center;
+
+}
+
+#tekstboks2{
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+    margin-right: 35%;
+    margin-left: 35%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px 0px 15px 0px;
+    float: top;
+    background-color: #fff6c2;
+
+
+
+
+}
+@media screen and (max-width: 650px) {
+    #tekstboks1, #tekstboks2 {
+        width: 100%;
+        display: block;
+    }
+}
+
+h2{
+    text-align: center;
+}
+
+th, td{
+    border-style: solid;
+    border-color: black;
+    background-color: #fff6c2;
+}
+
+#tabell1 {
+
+    margin-left: 50%;
+
+
+}
+#tabell2{
+
+    margin-left: 25%;
+
+}
+
+#tabell3{
+    margin-right: 25%;
+}
+
+#tabeller {
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px 15px 0px 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: salmon;
+}
+
+@media screen and (max-width: 650px) {
+    #tabeller {
+        width: 100%;
+        display: block;
+    }
+}
+
+#kontakt{
+
+    border-color: black;
+    border-style: solid;
+    width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #fff6c2;
+    border-radius: 0px 15px 0px 15px;
+
+}
+
+#person1{
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px 15px 0px 15px;
+    background-color: #fff6c2;
+}
+
+#person2{
+    margin-top: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px 15px 0px 15px;
+    background-color: #fff6c2;
+}
+#person3{
+    margin-top: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px 15px 0px 15px;
+    background-color: #fff6c2;
+}
+#person4{
+    margin-top: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px 15px 0px 15px;
+    background-color: #fff6c2;
+}
+
+#bilde1 {
+    max-width: 100%;
+}
+#bilde2 {
+    max-width: 100%;
+}
+#bilde3 {
+    max-width: 100%;
+}
+#bilde4 {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+    #person1, #person2, #person3, #person4 {
+        width: 100%;
+        display: block;
+    }
+}
+div ul{
+    align-content: center;
+    position: relative;
+    display: inline-block;
+}
+
+#tekstboks1.icon {
+    display: none;
+}
